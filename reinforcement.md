@@ -113,7 +113,7 @@ _Rt_ = corresponding reward
 
 _A_ = arbitrary action
 
-_q⇤(a)_ = expected reward given taht a is slected
+_q⇤(a)_ = expected reward given that a is selected
      - if you know the values, always select action with hightest value
   - we want :
 
@@ -139,4 +139,11 @@ true value of an action = mean reward that action is selected
      
       - 
     
-     
+### 2.4 Incremental Implementation     
+
+1. How can avers be computed in a computationally effcient manner, with constant emory and constant per-time-step computation
+
+
+
+
+
