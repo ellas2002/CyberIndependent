@@ -1,7 +1,7 @@
-Reinforcement Learning (Richard S. Sutton; Andrew G. Barto)
-  Introduction
-    Direct sensorimotor connection: direct pathway from the sensory to motor cortex: allows sensory input to influence motor output
-	  Looked at as the way we learn information about environment and self
+## Reinforcement Learning (Richard S. Sutton; Andrew G. Barto)
+# Introduction
+1. Direct sensorimotor connection: direct pathway from the sensory to motor cortex: allows sensory input to influence motor output
+	a.Looked at as the way we learn information about environment and self
 
     1.1 Reinforcement Learning
       Machine learning paradigms
