@@ -94,7 +94,7 @@
   - Instructive indicates best or worst action taken
   - Independent of action
 
-### 2.1 A k-armed Bandit Problem
+#### 2.1 A k-armed Bandit Problem
 
 1. Idea
   - Faced with a choice with k different options/action
@@ -125,7 +125,7 @@ _q⇤(a)_ = expected reward given that a is selected
       - nongreedy items mean you are **exploring**
         - right thing to do to produce greater total reward in long run
 
-### 2.2 Action-value methods
+#### 2.2 Action-value methods
 1. **action value methods** : method for estimating values of action and for using the estimates to make action selection decisions
 
 true value of an action = mean reward that action is selected
@@ -139,11 +139,30 @@ true value of an action = mean reward that action is selected
      
       - 
     
-### 2.4 Incremental Implementation     
+#### 2.4 Incremental Implementation     
 
 1. How can avers be computed in a computationally effcient manner, with constant emory and constant per-time-step computation
 
+```Q<sub>n</sub> .= R<sub>1</sub> + R<sub>2</sub> + · · · + R<sub>n-1</sub> / n - 1 .```
+
+R<sub>i</sub> = the reward recieved after the th selection of this action
+
+Q<sub>n</sub> = estimate of its action value afiter it has been selected n-1 times
+  
+  - obvious implmentation is keep a record of rewards and them preform this whenever estimated value is need
+  	- issue
+           - it will continue to get bigger...
+2. better option is to devise incremental formulas by updating averages with small, constant, computation required to process each reward
+
+     """see page 31 for equations"""
+
+### Chapter 3 Finite markov Decision Processes
+1. MDS is a classical formalization of sequential decision making
+   - actions influence not just immediate rewards but also subsequent situation, and thus future rewards
 
 
+
+
+     
 
 
