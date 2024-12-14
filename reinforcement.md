@@ -156,6 +156,7 @@ Q<sub>n</sub> = estimate of its action value afiter it has been selected n-1 tim
 
      """see page 31 for equations"""
 
+
 ### Chapter 3 Finite markov Decision Processes
 1. MDS is a classical formalization of sequential decision making
    - actions influence not just immediate rewards but also subsequent situation, and thus future rewards
