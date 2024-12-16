@@ -65,4 +65,24 @@
        
 ## 3.7 Optimality and Approximation
 1. optimal policies can be generated but with extreme computational cost
+2. well defined notion of optimality
+   - organizes the approach to leraning and provides a way to understand the theoretical properties of various learning algorithms
+      - agents can only approximate
+        
+3. problem for agent
+   - the amount of computation it can preform in a single time step
+   - memory available
+      -_tabular case_ finite state tasks, it is possible to form approximates using arrays or tables with one entry for each state
+         - functions must be approximated
+   
+4. Unique opportunites
+   - approximation of optimal policies that put more effort into learning to make good decsions for frequently encounted states
+      - at the expense of less effort for less encounted states
+
+
+
+
+
+
+
         
