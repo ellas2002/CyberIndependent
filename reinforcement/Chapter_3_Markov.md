@@ -36,7 +36,33 @@
 
 
   ## 3.4 Unified Notation for Episodic and Continuing Tasks
+1. episodic tasks are easier
+   - each action affects only the finite number of rewards recieved during the episode
+   - when disussing episodic tasks, rarely distinguish between different episodes
+  
+2. single notation that covers both episodic and continuing tasks
+   - episodic
+     - return: a sum over a  finite number of terms
+   - continuing
+      - return: a sum over an infinite number of terms
+   - unification of episodic and continuing
+      - consider episode termination to be the the _absorbing state_ that transitions only to its self and that generates only rewards of zero 
       
          
-
+## 3.5 Policies and Value Functions
+1. most learning algos estimate _value functions_: functions of states that estimate how good it is for the agent to be in a given state
+  - how good: in terms of expected return
+  - value functions are defined with respect to particular way of acting calle dpolicies
+    - *policy* is mapping from states to probabilites of selecting each possible action
+       - reinforcement methods specify how the agent's policy is changed as a result of its experience
+     
+## 3.6 Optimal Policies and Optimal Value Functions
+1. solving a reinforcement task
+   - finding a policy that achieves a lot of rewards in the long run
+   - For finite MDPs
+      - one policy that is better than or equal to all other policies: _optimal policy_
+        - optimal policies share the same _optimal action_value function_
+       
+## 3.7 Optimality and Approximation
+1. optimal policies can be generated but with extreme computational cost
         
