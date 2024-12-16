@@ -4,7 +4,7 @@
       - limited utility in reinforcement learning because of
         -  assumption of a perfect model
         -  great computational expense
-        -  
+          
 2. approximate solutions for continuous tasks
    - quantize the state and action spaces and then apply finite-state DP methods
    
